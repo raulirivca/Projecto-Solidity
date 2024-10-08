@@ -1,0 +1,123 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "paciente_atendido",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_idPaciente",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_nombrePaciente",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_peso",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_altura",
+						"type": "uint256"
+					}
+				],
+				"name": "AtenderPacientes",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "medico",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/salud.sol": "IDS"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/salud.sol": {
+			"keccak256": "0xbc2a3dd0a9319dac81bf3dc4c3dc16ed64ceaee63878a2ae783dd5611fc35701",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8c72a566ef661c352b11bd9ad118b1504660b8a46fd661a6b30db0a28fd0285e",
+				"dweb:/ipfs/QmdHhmoDj1ZL4CJwEFyrby34wcM5KXwVBHjwqMJqx8V1i5"
+			]
+		}
+	},
+	"version": 1
+}
